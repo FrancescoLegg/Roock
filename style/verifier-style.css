@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generic-container {
+    text-align: center;
+    max-width: 850px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.title {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.get-email {
+    width: 420px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+#emailInput {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: rgb(53, 53, 53);
+    height: 50px;
+    width: 400px;
+    color: white;
+}
+
+#emailInput:focus {
+    background-color: rgb(53, 53, 53);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#submit {
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    margin: auto;
+    cursor: pointer;
+    background-color: #242424;
+    color: white;
+}
+
+#submit:hover {
+    background-color: #404040;
+}
+
+.info-container {
+    gap: 3rem;
+    margin-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#email, #result, #score {
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.info-container{
+    margin-top: 2px;
+    display: none;
+}
+
+#status {
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}

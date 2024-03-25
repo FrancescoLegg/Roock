@@ -1,0 +1,32 @@
+/* Stile per il pezzo di caricamento */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Sfondo nero semitrasparente */
+    z-index: 9999; /* Assicura che sia sopra gli altri elementi */
+    display: none; /* Inizialmente nascosto */
+}
+
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.1); /* Bordo semitrasparente bianco */
+    border-left-color: white; /* Colore del bordo sinistro (bianco) */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; /* Animazione di rotazione */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px; /* Per centrare verticalmente */
+    margin-left: -25px; /* Per centrare orizzontalmente */
+}
+
+/* Animazione di rotazione */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

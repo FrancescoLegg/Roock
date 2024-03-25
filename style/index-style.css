@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Mitr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.choosetext{
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    transform: translate(50%, 0%);
+}
