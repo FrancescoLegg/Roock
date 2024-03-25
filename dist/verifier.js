@@ -8,7 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-let APIKey = "fe75acc9e19cf1b25d62375ab5523722529d501e";
+let APIKey = "Your APIKey";
 const email = document.getElementById("emailInput");
 const sendButton = document.getElementById("submit");
 const container = document.querySelector(".generic-container");
